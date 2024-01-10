@@ -1,0 +1,41 @@
+#board{
+    width: 320px;
+    height: 320px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+
+.square svg {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    position: relative;
+}
+
+path {
+    position: relative;
+    z-index: -10;
+}
+
+piece {
+    position: relative;
+    z-index: 9;
+}
+
+.beige {
+    background-color: wheat;
+}
+
+.brown {
+    background-color: rgba(53, 1, 1, 0.663);
+}
+
+#buttons {
+    display: flex;
+}
